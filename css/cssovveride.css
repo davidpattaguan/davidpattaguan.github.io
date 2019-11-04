@@ -1,0 +1,423 @@
+
+
+/* NAVIGATION */
+
+#mainNav.navbar-scrolled .navbar-brand {
+    color: #212529;
+}
+
+#mainNav .navbar-brand {
+    font-family:montserrat,sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.nav-item{
+    color: white;
+}
+
+.nav-link{
+    font-family: montserrat !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active{
+    color:#4eb0ef !important;
+    
+}
+
+#mainNav.navbar-scrolled .navbar-brand {
+    color: black;
+}
+
+#mainNav.navbar-scrolled {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff !important;
+}
+
+#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
+    color:#4eb0ef;
+}
+
+.text-justify{
+    text-align: justify !important;
+}
+
+
+-------------------
+
+div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+div.topBotomBordersOut a:before
+{
+    top: 0px;
+    transform: translateY(10px);
+}
+
+div.topBotomBordersOut a:after
+{
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+
+div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+/* Top and Bottom borders come in */
+div.topBotomBordersIn a:before, div.topBotomBordersIn a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+div.topBotomBordersIn a:before
+{
+    top: 0px;
+    transform: translateY(-10px);
+}
+
+div.topBotomBordersIn a:after
+{
+    bottom: 0px;
+    transform: translateY(10px);
+}
+
+div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+
+
+/* MASTHEAD */
+
+
+header.masthead2 {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 72px);
+    background: linear-gradient(to bottom, rgba(3, 20, 47, 0.8) 0%, rgba(4, 4, 12, 0.8) 90%), url("../img/bg-masthead.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  #fontheading{
+    font-family: montserrat;
+    text-align: left;
+    align-items: left;
+}
+
+
+/* SECTIONS */
+
+  .nametext{
+    font-weight: 700;
+    color: #4eb0ef;
+}
+
+
+.section_headingwhiteback{
+    font-family: montserrat;
+    font-weight: 700;
+    color: #459dd3;
+}
+
+.section_headingblueback{
+    font-family: montserrat;
+    font-weight: 700;
+    color: white;
+}
+
+.heading_masthead{
+    font-size: 50px !important;
+}
+
+
+    .bg-primary{
+        background-color: white !important;
+    }
+
+    .bg-secondary {
+        background-color: #4eb0ef !important;
+    }
+
+
+    .content{
+        text-align: left;
+    }
+
+
+    #nametext{
+        text-align: center;
+    }
+
+    .page-link:hover {
+        z-index: 2;
+        color: #ffffff;
+        text-decoration: none;
+        background-color: #e9ecef;
+        border-color: #dee2e6;
+    }
+
+    .btn{
+        background-color: #4eb0ef !important;
+    }
+
+    .headsup{
+    text-align: center !important;
+
+    }
+
+    .ResumeDetails{
+        color: #459dd3 !important;
+        font-weight: bolder;
+    }
+
+    .resume_details_font{
+        font-family: montserrat !important;
+    }
+
+
+/* PARALLAX EFFECTS */
+
+  .parallax {
+   
+   background-image:url("../img/sai-kiran-anagani-5Ntkpxqt54Y-unsplash.jpg");
+  
+  
+    min-height: 400px; 
+  
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .parallax2 {
+   
+    background-image:url("../img/freshmans.jpg");
+   
+   
+     min-height: 400px; 
+   
+    
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+
+
+   .parallax3 {
+   
+    background-image:url("../img/_DSC0400.JPG");
+   
+   
+     min-height: 400px; 
+   
+    
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+
+   #emailadd{
+    color: #459dd3 !important;
+    text-decoration: none;
+    background-color: transparent;
+   }
+
+
+   
+
+   .portfolio-box .portfolio-box-caption{
+    background: #459dd3 !important;
+    font-family: montserrat !important;
+   }
+
+
+
+   #paddingfix{
+       padding: 1px;
+   }
+
+
+
+
+
+   /* buttons */
+
+   .wrap{
+    margin:auto;
+    padding: 1%;
+    width: 100%;
+  }
+  
+  .wrap div{
+    display: inline-block;
+  }
+  
+  .icon{
+    background-color:#222;
+    background-repeat:no-repeat;
+    background-position:center center;
+    height: 3em;
+    width: 3em;
+    -webkit-transition: background-color 0.4s ease;
+    -moz-transition: background-color 0.4s ease;
+    -ms-transition: background-color 0.4s ease;
+    -o-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+  }
+  
+  .goof{
+    -webkit-transition: all 0.4s cubic-bezier(0,2,0,2);
+    -moz-transition: all 0.4s cubic-bezier(0,2,0,2);
+    -ms-transition: all 0.4s cubic-bezier(0,2,0,2);
+    -o-transition: all 0.4s cubic-bezier(0,2,0,2);
+    transition: all 0.4s cubic-bezier(0,2,0,2);
+  }
+  
+  .goof:hover{
+    background-size:35%;
+  }
+  
+  .icon a{
+    display: block;
+    height: 60%;
+    width: 60%;
+  }
+
+   .github{
+    background-image:url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAtMC40IDMyIDMzIj48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMzIsMTZjMCw4LjgtNy4yLDE2LTE2LDE2QzcuMiwzMiwwLDI0LjgsMCwxNkMwLDcuMiw3LjIsMCwxNiwwQzI0LjgsMCwzMiw3LjIsMzIsMTYgTTIwLDI5YzUuNS0xLjgsOS41LTYuOSw5LjUtMTNjMC03LjUtNi0xMy41LTEzLjUtMTMuNUM4LjUsMi41LDIuNSw4LjUsMi41LDE2YzAsNi4xLDQsMTEuMiw5LjUsMTN2LTIuNWMtMy45LDAuOS00LjgtMS44LTQuOC0xLjhjLTAuNi0xLjYtMS41LTItMS41LTJjLTEuMy0wLjksMC4xLTAuOCwwLjEtMC44YzEuNCwwLjEsMi4xLDEuNCwyLjEsMS40YzEuMywyLjMsMy41LDEuNCw0LjIsMS4xYzAuMi0xLDEtMS4yLDEuMi0xLjNDOS44LDIyLjYsNiwyMS4zLDYsMTUuMmMwLTEuNywwLjYtMy4xLDEuNi00LjJjLTAuMi0wLjQtMC43LTIsMC4yLTQuMmMwLDAsMS4zLTAuNCw0LjMsMS42YzEuMy0wLjMsMi42LTAuNSwzLjktMC41YzEuMywwLDIuNywwLjIsMy45LDAuNWMzLTIsNC4zLTEuNiw0LjMtMS42YzAuOSwyLjIsMC4zLDMuOCwwLjIsNC4yYzEsMS4xLDEuNiwyLjUsMS42LDQuMmMwLDYuMS0zLjgsNy40LTcuMyw3LjhjMC42LDAuNCwxLjMsMS4zLDEuMywyLjhWMjl6Ii8+PC9zdmc+);
+    background-size:60%; 
+  }
+  
+  .github:hover{
+    background-color:#6CC644;
+  }
+
+
+  
+  .gmail{
+    background-image:url(../img/ICONS_WEB/iconmonstr-gmail-1-240.png);
+    background-size:60%; 
+  }
+  
+  .gmail:hover{
+    background-color:rgb(211, 51, 51);
+  }
+
+  .twitter{
+    background-image:url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iLTAuNyAtMC40IDE4NCAyNDUiID48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTgyLjcsMjEzLjVjMCw4LjQtMywxNS42LTksMjEuNWMtNiw2LTEzLjIsOS0yMS42LDlIOTEuNWMtMjUuMiwwLTQ2LjgtOC45LTY0LjctMjYuOEM4LjksMTk5LjQsMCwxNzcuOSwwLDE1Mi44VjMwLjVjMC04LjYsMy0xNS45LDguOS0yMS43QzE0LjksMi45LDIyLjIsMCwzMC44LDBjOC4zLDAsMTUuNSwzLDIxLjUsOWM2LDYsOSwxMy4xLDksMjEuNXY0NC4zaDg2LjJjNy44LDAsMTQuNSwyLjgsMjAuMSw4LjNjNS42LDUuNSw4LjQsMTIuMiw4LjQsMjBjMCw3LjgtMi44LDE0LjQtOC40LDIwYy01LjYsNS41LTEyLjMsOC4zLTIwLDguM0g2MS4ydjIxLjRjMCw4LjQsMi45LDE1LjUsOC44LDIxLjRjNS45LDUuOSwxMyw4LjgsMjEuNSw4LjhIMTUyYzguNCwwLDE1LjYsMywyMS42LDlDMTc5LjcsMTk4LDE4Mi43LDIwNS4xLDE4Mi43LDIxMy41eiIvPjwvc3ZnPg==);
+    background-size:40%;
+  }
+  
+  .twitter:hover{
+    background-color:#44C8F5;
+  }
+
+  .facebook{
+    background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgdmlld0JveD0iLTAuNyAtMC42IDEzNCAyNzgiPjxzdHlsZT4uc3R5bGUwe2ZpbGw6CSNGRkZGRkY7fTwvc3R5bGU+PHBhdGggZD0iTTgyLjYgNThjMCAwLTAuNy01LjUgNC40LTkuNmM1LjEtNCA5LjktMy43IDkuOS0zLjdjMTIuOS0xLjYgMjkuOCAyLjYgMjkuOCAyLjZsNS45LTQyLjdjMCAwLTU5LjctMTQuMy04NS45IDcuMkMyOS41IDI0LjUgMjkuMyA0My43IDI5LjMgNDMuN3Y0Ny43SDAuMmwtMC4yIDQyaDI5LjRsLTEuMSAxNDMuMWw1Mi44IDAuM2wwLjMtMTQzLjRoNDMuMWwyLjktNDEuOWwtNDUuMS0wLjJMODIuNiA1OHoiIGNsYXNzPSJzdHlsZTAiLz48L3N2Zz4=);
+    background-size:25%;  
+  }
+  
+  .facebook:hover{
+    background-color:#3664A2;
+  }
+
+  .instagram{
+    background-image:url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iLTAuOSAtMC44IDYxIDYxIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZmlsbD0iI0ZGRkZGRiIgZD0iTTcuNywwaDQ0LjVjNC4yLDAsNy43LDMuNSw3LjcsNy43djQ0LjVjMCw0LjItMy41LDcuNy03LjcsNy43SDcuN2MtNC4yLDAtNy43LTMuNS03LjctNy43VjcuN0MwLDMuNSwzLjUsMCw3LjcsMEw3LjcsMHogTTQzLjYsNi43Yy0xLjUsMC0yLjcsMS4yLTIuNywyLjd2Ni41YzAsMS41LDEuMiwyLjcsMi43LDIuN2g2LjhjMS41LDAsMi43LTEuMiwyLjctMi43VjkuNGMwLTEuNS0xLjItMi43LTIuNy0yLjdINDMuNkw0My42LDYuN3ogTTUzLjEsMjUuM2gtNS4zYzAuNSwxLjYsMC44LDMuNCwwLjgsNS4xYzAsMTAtOC4zLDE4LTE4LjYsMThzLTE4LjYtOC4xLTE4LjYtMThjMC0xLjgsMC4zLTMuNSwwLjgtNS4xSDYuN3YyNS4zQzYuNyw1Miw3LjcsNTMsOSw1M2g0MS43YzEuMywwLDIuNC0xLjEsMi40LTIuNFYyNS4zTDUzLjEsMjUuM3ogTTMwLDE4LjJjLTYuNiwwLTEyLDUuMi0xMiwxMS43YzAsNi40LDUuNCwxMS43LDEyLDExLjdzMTItNS4yLDEyLTExLjdDNDIsMjMuNCwzNi43LDE4LjIsMzAsMTguMnoiLz48L3N2Zz4=);
+    background-size:55%; 
+  }
+  
+  .instagram:hover{
+    background-color:#3F729B;
+  }
+  
+
+  .bg-blacktig{
+      background-color: #1a1a1a;
+  }
+
+
+
+
+
+
+
+
+  
+  
+  .button {
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    font-size: 13px;
+    text-decoration: none !important;
+  }
+  .button:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0cf;
+    border-radius: 10rem;
+    z-index: -2;
+    text-decoration: none !important;
+  }
+  .button:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #008fb3;
+    transition: all .3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  .button:hover {
+    color: #fff;
+  }
+  .button:hover:before {
+    width: 100%;
+  }  
+
+
+  
