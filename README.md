@@ -1,6 +1,6 @@
 ## ABOUT THIS PROJECT
 
-Hello! I'm David Pattaguan and this is my 2nd Web Project! This project is focused on my very own online profile website!
+Personal Website Project uwu!
 
 ## template owner
 CREDITS TO THIS GUY! 
